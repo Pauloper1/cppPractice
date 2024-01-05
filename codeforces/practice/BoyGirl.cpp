@@ -1,3 +1,11 @@
+/*
+Coding Platform: Codeforces
+Problem link: https://codeforces.com/problemset/problem/236/A
+Rating: 800
+
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -16,18 +24,16 @@ int main(){
 	for(int i = 0; i < name.length(); i++){
 		if(myMap[name[i]] == 0){
 			myMap[name[i]] = 1;
-			// printf("%d\n", sum);
 			sum += 1;
 		} else {
 
 		}
 	}
 
-	printf("%d\n", sum);
 	if(sum%2 != 0){
-		printf("IGNORE HIM");
+		printf("IGNORE HIM!");
 	} else {
-		printf("CHAT WITH HER");
+		printf("CHAT WITH HER!");
 	}
 	
 
