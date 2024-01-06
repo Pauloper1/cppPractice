@@ -7,7 +7,6 @@ int main(){
 	scanf("%d %d", &a, &b);
 	int a3 = 3;
 	int b2 = 2;
-
 	int count = 1;
 	while(true){
 		a *= a3;
