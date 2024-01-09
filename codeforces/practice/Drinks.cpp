@@ -1,6 +1,6 @@
 /*
 Coding Platform: Codeforces
-Status: 
+Status: Accepted
 Comments: 
 Problem Link: https://codeforces.com/problemset/problem/200/B
 */
