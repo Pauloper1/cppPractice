@@ -2,6 +2,10 @@
 Coding Platform: Codeforces
 Status: Accepted
 Comments: Took too much time to solve and also didn't read the complete question, so I missed 'Y'
+Better code (found online): 
+char a[]="aoyeui",c;main(){while(std::cin>>c)if(!strchr(a,c|=32))std::cout<<'.'<<c;}
+
+
 Problem Link: https://codeforces.com/problemset/problem/118/A
 */
 #include<bits/stdc++.h>
